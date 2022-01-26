@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .txtBeyaz{
+            color: white;
+        }
+        .txtSiyah{
+            color: black;
+        }
+
+        .BGturuncu{
+            background-color: orange;
+        }
+        .BGmavi{
+            background-color: blue;
+        }
+        .BGkirmizi{
+            background-color: red;
+        }
+
+        .yaziBoyutu{
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <button id="tikla">TIKLA</button>
+    --
+    <div>
+        <p>Liste</p>
+        <button id="urunEkle">ÜRÜN EKLE</button>
+        <ul>
+        </ul>
+    </div>
+    --
+    <div>
+        <button id="ekle" onclick="sinifEkle()">Add</button>
+        <button id="sil" onclick="sinifSil()">Remove</button>
+        <button id="guncelle" onclick="sinifGuncelle()">Replace</button>
+        <button id="incele" onclick="sinifIncele()">Item</button>
+        <button id="sorgula" onclick="sinifSorgula()">Contains</button>
+
+        <h3 id="test">Test Yazısı</h3>
+    </div>
+</body>
+    <script src="./app.js"></script>
+</html>
