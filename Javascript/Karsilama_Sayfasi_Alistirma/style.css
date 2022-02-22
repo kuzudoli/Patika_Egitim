@@ -1,0 +1,17 @@
+body{
+    background-color: #1a1b1b;
+    color: white;
+}
+
+.textCenter{
+    text-align: center;
+    font-size: 45px;
+}
+
+.containerAlign{
+    margin-top: 100px;
+}
+
+.newColor{
+    color: rgb(255, 180, 40);
+}
